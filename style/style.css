@@ -35,7 +35,7 @@
 }
 .header__img{
     width: 100px;
-
+cursor: pointer;
 }
 .header__contacts{
     display: flex;
@@ -48,9 +48,13 @@
 }
 .header__link{
     width: 100px;
+    cursor: pointer;
     border: 1px solid black;
     border-radius: 50px;
     padding: 10px;
+}
+.header__image{
+    cursor: pointer;
 }
 
 .hero{
@@ -71,7 +75,7 @@
 }
 .hero__text-title{
     font-size: 46px;
-    width: 80%;
+    width: 70%;
     align-items: center;
     justify-content: center;
     text-align: start;
@@ -82,7 +86,7 @@
 }
 .hero__text_subttle{
 padding-left: 50px;
-width: 65%;
+width: 45%;
 }
 .hero__text_button{
     display: flex;
@@ -101,26 +105,35 @@ width: 65%;
 }
 .hero__img__img{
     width: 524px;
-    height: 810px;
+    height: 830px;
+
     border-radius: 50px;
     object-fit: cover;
 }
 .hero__imges{
-width: 524px;
+width: 530px;
+}
+.hero__image{
+    cursor: pointer;
 }
 .hero_card{
     display: flex;
-    width: 270px;
+    position: relative;
+   width: 100%;
+   justify-content: space-between;
     margin-top: 150px;
 }
-
+.card__img{
+    position: relative;
+    transform: translate(-100px, 0);
+}
 
 
 .hero__line{
     width: 100%;
     display: flex;
     background-color: #DCE9B1;
-    margin-top: 200px;
+    margin-top: 28px;
     text-align: center;
     text-align: center;
     justify-content: space-between;
@@ -150,4 +163,64 @@ width: 524px;
     padding: 12px;
     border-radius: 50px;
     text-decoration: none;
+}
+.advart{
+    width: 100%;
+    height: 1000px;
+}
+.advart__title{
+    width: 95%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.advart__title__title{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.advart__title__button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.advart__container__slider{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.advart__img{
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+.advart__contaner__avvarts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:220px
+}
+.advart__container__text{
+font-size: 30px;
+text-align: start;
+justify-content: center;
+display: flex;
+align-items: center;
+padding-left: 20px;
+}
+.aadvart__arrow__circle{
+    display: flex;
+}
+.bx-right-arrow-circle{
+font-size: 48px;
+
+}
+.bx-left-arrow-circle{
+    font-size: 48px;
 }
