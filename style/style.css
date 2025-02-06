@@ -224,3 +224,48 @@ font-size: 48px;
 .bx-left-arrow-circle{
     font-size: 48px;
 }
+.mument{
+    width: 100%;
+}
+.mument__title{
+    display:grid;
+}
+.mument__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mument__title__group{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+.group__button{
+    background-color: #1B1B1B;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.mument__title__button{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 14%;
+    text-align: center;
+    border-radius: 50px;
+}
+.mument__title__title{
+    font-size: 30px;
+}
+.mument__cards{
+    display: flex;
+    overflow: hidden;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
